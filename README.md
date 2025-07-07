@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Smart-POS
+Smart-POS is an all in one developer toolkit for building mordern, scalable restaurant POS systerm with Next.js. It combines solid architecture foundation, state-of-the-art UI components, and seamless backend integrations to accelerate development and ensure maintainability. Whether managing orders, billing, or user profiles, Smart-POS empowers developers to create feature rich, performant web application with ease.
 
-## Getting Started
+## ✨ Features
 
-First, run the development server:
+- 📋 **Order Management** – Seamless order entry and tracking to minimize errors and delays
+- 💳 **Payment Handling** – Integrated payment processing for efficient checkouts
+- 🔗 **Supabase Authentication** – Secure user authentication and session management
+- 👨‍🍳 **Staff Communication** – Improved coordination between front-of-house and kitchen teams
+- 📦 **Inventory Management** – Real-time stock tracking to avoid overstocking or shortages
+- 📊 **Reporting** – Simplified reports and insights for better decision-making
+- 🌐 **Responsive UI** – User-friendly interface designed for tablets, desktops, and touchscreens
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Frontend**: Next.js, TypeScript, Material UI, Redux, HTML, Sass
+- **Backend**: Supabase (Database + Auth)
+- **Payments**: Razorpay Integration
+- **Deployment**: Vercel
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📸 Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![image](https://github.com/user-attachments/assets/8c0691a2-4e35-4a80-8c9a-33ea33fa4539)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Node.js (v16 or later)
+- Yarn or npm
+- Supabase account
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  git clone https://github.com/your-username/restaurant-pos-app.git
+  cd restaurant-pos-app
+
+2. **Install dependencies**
+
+  npm install
+   or
+  yarn install
+
+3. **Configure Environment Variables**
+
+  Create a .env.local file in the root and add:
+  
+  NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+  NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+  NEXT_PUBLIC_RAZORPAY_KEY=your-razorpay-key
+
+4. **Run the application**
+  
+  npm run dev
+   or
+  yarn dev
+
+5. **Deployment**
+
+  This app is deployed on Vercel (https://smart-pos-rho.vercel.app/). You can deploy your own version by connecting the GitHub repo to Vercel and adding your environment variables in the dashboard.
