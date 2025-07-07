@@ -35,29 +35,29 @@ Smart-POS is an all in one developer toolkit for building mordern, scalable rest
 
 1. **Clone the repository**
 
-  git clone https://github.com/your-username/restaurant-pos-app.git
-  cd restaurant-pos-app
+      git clone https://github.com/your-username/restaurant-pos-app.git
+      cd restaurant-pos-app
 
 2. **Install dependencies**
 
-  npm install
-   or
-  yarn install
+      npm install
+       or
+      yarn install
 
 3. **Configure Environment Variables**
 
-  Create a .env.local file in the root and add:
-  
-  NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
-  NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
-  NEXT_PUBLIC_RAZORPAY_KEY=your-razorpay-key
+      Create a .env.local file in the root and add:
+      
+      NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+      NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+      NEXT_PUBLIC_RAZORPAY_KEY=your-razorpay-key
 
 4. **Run the application**
   
-  npm run dev
-   or
-  yarn dev
+      npm run dev
+       or
+      yarn dev
 
 5. **Deployment**
 
-  This app is deployed on Vercel (https://smart-pos-rho.vercel.app/). You can deploy your own version by connecting the GitHub repo to Vercel and adding your environment variables in the dashboard.
+      This app is deployed on Vercel (https://smart-pos-rho.vercel.app/).
