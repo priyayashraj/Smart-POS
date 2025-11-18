@@ -1,5 +1,5 @@
 # Smart-POS
-Smart-POS is an all in one developer toolkit for building mordern, scalable restaurant POS systerm with Next.js. It combines solid architecture foundation, state-of-the-art UI components, and seamless backend integrations to accelerate development and ensure maintainability. Whether managing orders, billing, or user profiles, Smart-POS empowers developers to create feature rich, performant web application with ease.
+Smart-POS is a modern, scalable restaurant POS system built with Next.js, Material UI, and Redux, and integrated with Supabase for backend services such as authentication and real-time database updates. It is deployed on Vercel for seamless performance and scalability. The application streamlines order processing, payment handling, and restaurant management with a user-friendly interface and real-time updates, significantly enhancing overall operational efficiency.
 
 ## ✨ Features
 
